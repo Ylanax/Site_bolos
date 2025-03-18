@@ -50,30 +50,57 @@ table {
 }
 
 body{
+    font-family: "Roboto";
+}
+
+.cabecalho{
     background-image: url(imagens/banner1.png);
     background-repeat: no-repeat;
     height: 301px;
     background-size: cover;
-    border: 2px;
+    text-align: center;
 }
 
 .logo{
+    background-color: #fff;
+    border-radius: 50%;
     width: 170px;
     height: 170px;
     margin-top: 32px;
-    margin-left: 635px;
     border: 2px;
 }
 
 .logo-texto1{
     font-family: "Lobster";
+    font-weight: 400;
     font-size: 28px;
-    margin-left: 671px;
 }
 
 .logo-texto2{
     font-family: "Lobster";
     font-size: 44px;
-    margin-left: 671px;
+    font-weight: 400;
 }
 
+.menu-principal{
+    background-color: #F5AC72;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-align: center;
+    color: #FFE8D6;
+}
+
+.item-menu{
+    color: #FFE8D6;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.banner2{
+    height: 450px;
+    width: 100%;
+}
+
+.cardapio{
+    font-family: "Lobster";
+}
