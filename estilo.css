@@ -108,18 +108,19 @@ body{
     width: 166px;
     padding-top: 41px;
     padding-bottom: 52px;
-    margin-left: 652px;
-    margin-right: 622px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sabores{
+    width: 1300px;
     list-style-type: disc;
     color: #6B705C;
     columns: 4;
     font-size: 18px;
     font-family: "Roboto";
-    margin-left: 84px;
-    margin-right: 52px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 58px;
     line-height: 130%;
 }
@@ -130,13 +131,12 @@ body{
     font-size: 45px;
     padding-top: 52px;
     padding-bottom: 52px;
-    margin-left: 679px;
-    margin-right: 676px;
-
+    text-align: center;
 }
 
 .fotos{
     background-color: #F5AC72;
+    text-align: center;
 }
 
 .bolo-cenoura{
@@ -167,17 +167,17 @@ body{
     font-size: 45px;
     padding-top: 52px;
     padding-bottom: 21px;
-    margin-left: 637px;
-    margin-right: 668px;
+    text-align: center;
     line-height: 75%;
 }
 
 .mapa{
     width: 990px;
     height: 363px;
-    margin-left: 240px;
-    margin-right: 210px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 50px;
+    display: block;
 }
 
 .linha{
@@ -188,26 +188,33 @@ body{
     font-family: "Lobster";
     font-size: 28px;
     padding-top: 29px;
-    margin-left: 637px;
-    margin-right: 705px;
+    text-align: center;
 }
 
 .cida{
     font-family: "Lobster";
     font-size: 44px;
     padding-bottom: 21px;
-    margin-left: 650px;
-    margin-right: 705px;
+    text-align: center;
+}
+
+.rodape{
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 33px;
 }
 
 .insta{
     width: 28px;
     height: 28px;
-    padding-bottom: 33px;
-    margin-left: 652px;
-    margin-right: 760px;
+    margin-left: 13px;
 }
 
 .face{
-   margin-left: 693px;
+    width: 28px;
+
+}
+
+.a{
+    margin-left: 13px;
 }
